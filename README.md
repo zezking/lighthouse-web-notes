@@ -13,3 +13,4 @@ This repository contains all of the notes Enze Zhao for thtaken by Ene Lighthous
   - [Day 3](/week_1/day_3)
   - [Day 4](/week_1/day_4)
   - [Day 5](/week_1/day_5)
+  - [Weekend](/week_1/we)

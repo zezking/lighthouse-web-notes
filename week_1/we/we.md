@@ -36,7 +36,7 @@
   - Function testing
     - use automated user testing to mimic real users and testing the fucntions. it's very comeplex and slow
 
-## Mocha and Chai tutoria
+## Mocha and Chai tutorial
 
 - use npm install mocha chai --save-dev to install mocha and chai in your project folder
   - it should be installed at the root folder of the project not the test folder
