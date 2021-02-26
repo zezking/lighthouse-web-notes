@@ -32,4 +32,10 @@ for (
 }
 
 console.log(result); // 1
+
+```
+## Linear vs Logarithmic Algorithms
+
+```
+In mathematics, the logarithm is the inverse function to exponentiation. That means the logarithm of a given number x is the exponent to which another fixed number, the base b, must be raised, to produce that number x
 ```
