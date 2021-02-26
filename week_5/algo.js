@@ -1,8 +1,8 @@
-let numArr=[2,3,4,51,2,6,87,8,4]
+var primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97];
 
 const linearSearch=(num)=>{
-    num.sort((a,b)=>a-b);
+    let guess=Math.floor(num.lenght/2)
+    console.log(guess)
 }
 
-
-for 
+ 
