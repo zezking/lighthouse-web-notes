@@ -1,20 +1,25 @@
-var primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97];
+var primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]
+function search(array, item) {
+ let min=0;
+ let max=array.length-1
+     while (true){
+         let middleIndex=Math.floor((min+max)/2)
+         let currentItem=array[middleIndex]
 
-const linearSearch=(num, primeNum)=>{
-    let min=0;
-    let max=num.length-1
-    
-    while (min<max){
-        let guess=Math.floor((min+max)/2)
-        if (num[guess]<primeNum){
-            min=guess+1
-        } else if(num[guess]>primeNum){
-            max=guess-1
-        } else {
-            return guess
-        }
-    }
-    return false;
-}
+         if(item===currentItem){
+             return middleIndex
+         } else if(currentItem<item){
+             min=middleIndex+1
+         } else if (currentItem>item){
+             max=middleIndex-1
+         }
 
- console.log(linearSearch(primes,16))
+         if (min>max){
+             return null;
+         }
+
+     }
+ 
+  }
+
+ console.log(search(primes,43))
