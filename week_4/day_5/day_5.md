@@ -198,3 +198,8 @@ Some of the more common Big O running times are:
 - different steps get added
   - you will add steps together
     - O(a+b) 
+- drop constants
+- different inputs have different variables
+  - if there is a nested loops with two different arrays, don't say it has a Big O of a times b.
+- drop non-dominant terms
+  - O(n2) <= O(n+n2) <= (n2 + n2) so the big O run times will just be O(n2)
