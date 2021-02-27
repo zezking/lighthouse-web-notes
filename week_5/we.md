@@ -36,16 +36,16 @@ console.log(result); // 1
 ```
 ## Linear vs Logarithmic Algorithms
 
-```
+
 In mathematics, the logarithm is the inverse function to exponentiation. That means the logarithm of a given number x is the exponent to which another fixed number, the base b, must be raised, to produce that number x
-```
+
 
 ## Big O Notation
-```
-Big O notation, written as O(), describes how the number of steps in an algorithm scales relative to its input.
-```
 
-```
+Big O notation, written as O(), describes how the number of steps in an algorithm scales relative to its input.
+How time scales with respect to some input variables
+
+
 When we evaluate an algorithm using Big O notation, there are three main things to remember:
 
 We only care about arbitrarily large input.
@@ -54,7 +54,7 @@ We drop the non-dominant terms.
 When our algorithm had a running time of (n^2+n)/2, it was the n^2 that was hurting us. So we'll just forget about everything else.
 We drop constant terms.
 If you graph (n^3)/2 or (n^3)*2, it has pretty much the same curve as n^3, so let's just get rid of the constant 2.
-```
+
 
 
 ```
@@ -186,3 +186,15 @@ Some of the more common Big O running times are:
 - Quadratic O(n^2)
 - Linear O(n)
 - Constant O(1)
+
+## Google Interview
+- ask for clarification
+- thought out loud
+- think through a better solution
+- after you implement your solution, test your solution with examples, and do a walkthrough
+
+
+## Big O Rules
+- different steps get added
+  - you will add steps together
+    - O(a+b) 
