@@ -23,6 +23,7 @@ Structured Query Language
     The hardest part is to figure out which data goes to which table so you can link each table afterwards
     - Entity
       - represents a person, place or thing that you want to track in a database
+        - For example, student will be the container that will include all the students so the entity in this case will just be students
     - Attribute
     - Primary Key
     - Relationship
