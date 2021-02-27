@@ -35,6 +35,7 @@ Structured Query Language
       - This will become coloum in the tables
 
     - Primary Key
+      - must be unique
     - An attribute or group of attributes that uniqeuly identifies an instance of the entity
       - like the twitter handles in the Relational Databse introduction example. No users can have the same twitter handles or usernames
       - like student ID to identity if students have similiar names
@@ -44,3 +45,13 @@ Structured Query Language
     - Cardinality
       - The count of instances that are allowed or are necessary between entity relationships
         - students are allowed to have multiple phone numbers
+      - It does have min and max
+        - you can not exceed/less than the max and min
+      - use Crow's Foot Notation
+    - Business Rule of ERD
+      - create a one to many relationships
+        - we need to use compository primary keys
+      - a group of unique identifiers to identify students
+      - create seperate entities that only applicable to that specific entity so we can uniquely seperate information
+        - example use Undergarde GPA or Graduate GPA to seperate Graduate or Undergraduate students
+      - use a bridge tables that create a many to many relationships between two entities. The bridge tables has one to many relationship between each entity (one from the bridge table to many of the entity on the sides)
