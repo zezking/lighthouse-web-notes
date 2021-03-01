@@ -55,3 +55,11 @@ Structured Query Language
       - create seperate entities that only applicable to that specific entity so we can uniquely seperate information
         - example use Undergarde GPA or Graduate GPA to seperate Graduate or Undergraduate students
       - use a bridge tables that create a many to many relationships between two entities. The bridge tables has one to many relationship between each entity (one from the bridge table to many of the entity on the sides)
+
+### SQL
+
+- use CREATE TABLE chartTitle (entity dataType, entity2 dataType) to initialize a table
+
+- use INSERT INTO chartTitle VALUES (value, value, value)
+  - value data type must match the declared data type
+- SELECT \* FROM chartTitle ORDER BY entity(size);
