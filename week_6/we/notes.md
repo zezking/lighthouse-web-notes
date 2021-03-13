@@ -17,3 +17,6 @@ NOTES
         If the user is a fast typist and types “Green” at a go, the autocomplete box would contain the results for “G”, before switching to those for “Gr”, then “Gre”, and so on. This would be a source of confusion to the user.
         API calls aren’t guaranteed to return in the order they were sent. This means the autocomplete request for “Gre” could return after the call for “Green”. This means the user would first see the up-to-date list (items starting with “Green”), which would then be replaced by the out-of-date one (items starting with “Gre”).
         So it makes sense to debounce the search here. Debouncing by one second will ensure that the autocomplete function does nothing until one second after the user is done typing.
+
+## Imperative vs Declarative
+ - Many (if not all) declarative approaches have some sort of underlying imperative abstraction.
