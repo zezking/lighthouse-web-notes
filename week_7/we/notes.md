@@ -24,7 +24,7 @@
 - Checkout 'matcher' documentations for Jest
 - Refactor codes after you pass your tests and ensure the tests will be passed
 
-### Building a testing and quality driven culture
+## Building a testing and quality driven culture
 
 - if code isn't tested, it's just guessing
 - even smaller codebases have lots of edge cases
@@ -48,3 +48,18 @@
   - Linters and IDE plugins help code as it's being written
   - Husky and Git hooks to check changes pre-push
   - TravisCI and Jenkins to build and test PRs
+  - SonarCloud Code Climate Codacy for quality
+  - Control flow
+    - No force pushing
+    - requires team participation
+  - Catch regressions before it happens
+  - minimize technical debt and maintenance overhead
+  - Peer reviews to create learning opportunity
+  - Testable is better code
+    - Cleaner separation of different functionality
+    - Fewer side effects
+      - Mocking sucks
+        - [What is mocking](https://stackoverflow.com/questions/2665812/what-is-mocking)
+    - Better APIs because edge cases are tested for
+- Implementation
+  - make easy things
