@@ -77,3 +77,21 @@
     - Cross-team code reviews to share knowledge
     - Compile best practices into interal docs
     - Coach the team on writing more testable code
+    - Hire external trainers if necessary
+    - Executives need training
+      - Untested product is fragile
+      - Fragile products break in unpredictable ways
+      - cause delays
+      - delay is costly
+    - Code Quality is pride
+    - SonarCode visually represent code health in public
+      - measure code health over time for teams
+- Make testing deliverable
+  - Old habits are hard to break
+  - Replace old habits with better ones
+  - Understand where resistance is coming from
+  - Focus on the bright spots
+  - Reorganize resistant teams
+  - Meeasure management on team code quality
+  - No rewarding bad behavior
+  - No testing and no completion
