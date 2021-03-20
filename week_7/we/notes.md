@@ -63,3 +63,17 @@
     - Better APIs because edge cases are tested for
 - Implementation
   - make easy things
+  - Intergrate checks into your workflow
+    - intergrate tests once PR (private repo) is open
+  - Built-in coaching to improve quality
+    - Coadcy
+  - Trying to make the learning curve as shallow as possible
+  - A unified API makes testing approachable
+  - Having testing prompts
+    - Provide tested code to start with
+  - Internal Training is key
+    - Hackatons to add tests to older code
+    - workshops
+    - Cross-team code reviews to share knowledge
+    - Compile best practices into interal docs
+    - Coach the team on writing more testable code
